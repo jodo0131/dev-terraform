@@ -6,7 +6,7 @@ terraform {
   cloud {
     organization = "nojblog"
     workspaces {
-      name = "nojblog-dev"
+      name = "dev"
     }
   }
 }
