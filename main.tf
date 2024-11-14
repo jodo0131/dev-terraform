@@ -1,4 +1,4 @@
 module "server" {
   source = "./modules/server"
-  ami_id = "ami-0c55b159cbfafe1f0"
+  ami_id = "ami-0325498274077fac5"
 }
