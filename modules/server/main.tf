@@ -1,5 +1,5 @@
 resource "aws_instance" "dev-server" {
-  ami           = "var.ami.id"
+  ami           = "ami-0325498274077fac5"
   instance_type = var.instance_type
 
   subnet_id = data.aws_subnets.default.ids[0]
